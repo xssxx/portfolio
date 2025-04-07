@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
     FACEBOOK_URL: process.env.FACEBOOK_URL,
     INSTAGRAM_URL: process.env.INSTAGRAM_URL,
   },
+  output: "export",
 };
 
 export default nextConfig;
